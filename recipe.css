@@ -1,0 +1,91 @@
+img {
+   clip: rect(0px, 25px, 0px, 100px);
+   -webkit-border-radius: 150px;
+   border: 4px solid #CB3400;
+   -webkit-box-shadow: 10px 10px 5px #888888;
+}
+
+
+
+/*BODY*/
+body {
+	font-family: Arial, Sans-Serif;
+	text-align: left;
+	color: #000;
+}
+/*h1(Cranberry Bread and Butter Pudding with Grand Marnier Sauce)*/
+h1 {
+	font-family: 'Futura W01 Medium',Arial,Helvetica,sans-serif;
+	color: black;  
+	text-align: left;
+}
+
+/*cook and preheat time*/
+strong {
+	margin-bottom: 5px;
+	border: solid 1px white;
+	padding: 5px;
+	font-size: 13px;
+}
+/*Directions and Ingredients Headings*/
+/*possible color for change etc #450005; */
+h2 {
+	font-family: 'Futura W01 Medium',Arial,Helvetica,sans-serif;
+	background-color: #F39E03;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 9px 20px 6px 16px
+	font-size: 1.384615em;
+}
+/*For Sauce and for pudding*/
+h3 {
+	background-color: #E3C585!important;
+	line-height: 40px;
+	text-align: left;
+	padding-left: 8px;
+	color: #fff;
+}
+/*both ingredients and direction boxes*/
+section {
+	float: left;
+  	padding: 0;
+  	border: 0;
+ 	outline: 0;
+  	font-size: 100%;
+  	vertical-align: baseline;
+ 	background: transparent;
+  	background-repeat: no-repeat;
+  	display: block;
+}
+/*directions box*/
+section#directions {
+  width: 650px;
+  border: white 20px solid;
+}
+	
+/*Ingredients box*/
+section#ingredients {
+	height: 947px;
+	width: 240px;
+	background-color: #e9efee
+	margin-bottom: 20px;
+	color: #909090 
+}
+h2:hover {
+	color: black;
+	font-size: large;
+	-webkit-transition-duration: 2s;
+}
+h3:hover {
+	color: black;
+	font-size: larger;
+	-webkit-transition-duration: 2s;
+}
+.changecolor{
+	color: black;
+}
+.highlight{
+	font-weight: bold;
+	color: #8B0000;
+}
